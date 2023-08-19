@@ -16,7 +16,7 @@ export const Contact = () => {
       e.target.reset();
    }    
 
-   return  <div className="flex flex-column justify-center">   
+   return  <div className="flex flex-column justify-center m-4">   
    <form ref={form} className="space-y-4 w-[40rem]" onSubmit={sendEmail}>
  
    <div>  
@@ -49,7 +49,7 @@ export const Contact = () => {
    rows="6"
    /> 
    </div>
-   <button className="bg-blue-300 hover:bg-dreamy-purple text-white font-bold shadowed rounded py-2 px-4" type="submit">Envoyer</button>
+   <button className="bg-dreamy-purple hover:bg-[#8B8CC7] text-white hover:text-gray-100 font-bold shadowed rounded py-2 px-4" type="submit">Envoyer</button>
    </form>
    </div>
 }
