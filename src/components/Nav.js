@@ -64,7 +64,7 @@ export const Nav = () =>{
          </a> 
          </li>
          <li>
-            <a href="/resume/CV-Wesley.pdf" target="_blank" className="text-center text-xl nav hover:text-white">
+            <a href="my-portfolio/resume/CV-Wesley.pdf" target="_blank" className="text-center text-xl nav hover:text-white">
                CV
             </a>
          </li>
