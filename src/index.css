@@ -19,9 +19,9 @@
    }
    .nav::after{
       @apply content-[''] bg-dreamy-purple h-[4px] w-[0%] left-0 bottom-[-5px] rounded-xl
-      absolute scale-0 origin-center
+      absolute scale-x-0 origin-center
    }
    .nav:hover::after{
-      @apply w-[100%] scale-100
+      @apply scale-x-100 w-[100%] 
    }
 }
