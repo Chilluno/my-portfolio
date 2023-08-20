@@ -12,19 +12,19 @@ export const Nav = () =>{
    return <nav className="flex gap-3">
       <ul className="hidden md:flex flex-row gap-4 text-xl text-blue-grey items-center">
          <li>
-            <NavHashLink className="nav hover:text-gray-100" smooth to="/#about">À propos
+            <NavHashLink className="nav hover:text-gray-100" smooth to="my-portfolio/#about">À propos
             </NavHashLink>
          </li>
          <li>
-            <NavHashLink className="nav hover:text-gray-100" smooth to="/#projects">Projets
+            <NavHashLink className="nav hover:text-gray-100" smooth to="my-portfolio/#projects">Projets
             </NavHashLink>
          </li>
          <li>
-         <NavHashLink className="nav hover:text-gray-100 text-xl" smooth to="/#skills">Compétences
+         <NavHashLink className="nav hover:text-gray-100 text-xl" smooth to="my-portfolio/#skills">Compétences
          </NavHashLink>
          </li>
          <li>
-            <NavHashLink className="nav hover:text-gray-100" smooth to="/#contact">Contact
+            <NavHashLink className="nav hover:text-gray-100" smooth to="my-portfolio/#contact">Contact
             </NavHashLink>
          </li>
       </ul>
@@ -35,19 +35,19 @@ export const Nav = () =>{
 
       <ul className={!nav ? "hidden" : "absolute inset-0 w-full h-screen bg-turquoise-blue flex flex-col gap-4 justify-center items-center"}>
          <li>
-            <NavHashLink onClick={toggleNav} className="nav hover:text-gray-100 text-xl" smooth to="/#about">À propos
+            <NavHashLink onClick={toggleNav} className="nav hover:text-gray-100 text-xl" smooth to="my-portfolio/#about">À propos
             </NavHashLink>
          </li>
          <li>
-            <NavHashLink onClick={toggleNav}className="nav hover:text-gray-100 text-xl" smooth to="/#projects">Projets
+            <NavHashLink onClick={toggleNav}className="nav hover:text-gray-100 text-xl" smooth to="my-portfolio/#projects">Projets
             </NavHashLink>
          </li>
          <li>
-         <NavHashLink onClick={toggleNav} className="nav hover:text-gray-100 text-xl" smooth to="/#skill">Compétences
+         <NavHashLink onClick={toggleNav} className="nav hover:text-gray-100 text-xl" smooth to="my-portfolio/#skill">Compétences
          </NavHashLink>
          </li>
          <li>
-            <NavHashLink onClick={toggleNav} className="nav hover:text-gray-100 text-xl" smooth to="/#contact">Contact
+            <NavHashLink onClick={toggleNav} className="nav hover:text-gray-100 text-xl" smooth to="my-portfolio/#contact">Contact
             </NavHashLink>
          </li>
          <li>
@@ -64,7 +64,7 @@ export const Nav = () =>{
          </a> 
          </li>
          <li>
-            <a href="/resume/CV-Wesley.pdf" target="_blank" className="text-center text-xl nav hover:text-white">
+            <a href="my-portfolio/resume/CV-Wesley.pdf" target="_blank" className="text-center text-xl nav hover:text-white">
                CV
             </a>
          </li>
