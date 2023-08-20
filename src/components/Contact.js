@@ -25,6 +25,7 @@ export const Contact = () => {
    className="w-full rounded px-1 py-2 text-gray-500"
    type="email"
    name="email"
+   id="email"
    placeholder="ex: john@doe.com"
    /> 
    </div>
@@ -34,6 +35,7 @@ export const Contact = () => {
    className="w-full rounded px-1 py-2 text-gray-500"
    type="text"
    name="subject"
+   id="subject"
    placeholder="Objet"
    /> 
    </div>
@@ -44,6 +46,7 @@ export const Contact = () => {
    className="w-full rounded px-1 text-gray-500"
    type="text"
    name="message"
+   id="message"
    placeholder="Veuillez écrire un message"
    cols="20"
    rows="6"
