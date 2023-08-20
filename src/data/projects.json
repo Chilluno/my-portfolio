@@ -1,0 +1,29 @@
+[
+{
+   "title": "Kasa",
+   "images": ["images/kasa-home.png", "images/kasa-about.png", "images/kasa-details.png"],
+   "description": "Un site web de location d'appartements qui permet de regrouper et visualiser plusieurs appartements.",
+   "tags": ["React"],
+   "date": "Mai 2023",
+   "repository": "https://github.com/Chilluno/Kasa-OC",
+   "pages": ["Home", "About", "Details"]
+},
+{
+   "title": "ArgentBank",
+   "images": ["images/argentbank-home.png", "images/argentbank-login", "images/argentbank-profile"],
+   "description": "Un site web de banque qui affiche les informations d'un profil après connexion.",
+   "tags": ["React", "Redux toolkit"],
+   "date": "Août 2023",
+   "repository": "https://github.com/Chilluno/ArgentBank-website",
+   "pages": ["Home", "Login", "Profile"]
+},
+{
+   "title": "Portfolio Sophie Bluel",
+   "images": ["images/sophie-home.png", "images/sophie-login.png"],
+   "description": "Un site portfolio statique qu'il fallait dynamiser grâce l'utilisation de JavaScript.",
+   "tags": ["Javascript"],
+   "date": "Janvier 2023",
+   "repository": "https://github.com/Chilluno/Portfolio-architecte-sophie-bluel",
+   "pages": ["Home", "Login"]
+}
+]
