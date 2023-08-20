@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import {FaGithub, FaBars, FaTimes} from "react-icons/fa"
 import { NavHashLink } from "react-router-hash-link"
+import CV from "../../public/resume/CV-Wesley.pdf"
 
 export const Nav = () =>{
    const [hover, setHover] = useState(false);
@@ -64,12 +65,10 @@ export const Nav = () =>{
          </a> 
          </li>
          <li>
-            <a href="my-portfolio/resume/CV-Wesley.pdf" target="_blank" className="text-center text-xl nav hover:text-white">
+            <a href={CV} target="_blank" className="text-center text-xl nav hover:text-white">
                CV
             </a>
          </li>
       </ul>
    </nav>
-
-
 }
