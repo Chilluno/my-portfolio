@@ -12,19 +12,19 @@ export const Nav = () =>{
    return <nav className="flex gap-3">
       <ul className="hidden md:flex flex-row gap-4 text-xl text-blue-grey items-center">
          <li>
-            <NavHashLink className="nav hover:text-gray-100" smooth to="./#about">À propos
+            <NavHashLink className="nav hover:text-gray-100" smooth to="/#about">À propos
             </NavHashLink>
          </li>
          <li>
-            <NavHashLink className="nav hover:text-gray-100" smooth to="./#projects">Projets
+            <NavHashLink className="nav hover:text-gray-100" smooth to="/#projects">Projets
             </NavHashLink>
          </li>
          <li>
-         <NavHashLink className="nav hover:text-gray-100 text-xl" smooth to="./#skills">Compétences
+         <NavHashLink className="nav hover:text-gray-100 text-xl" smooth to="/#skills">Compétences
          </NavHashLink>
          </li>
          <li>
-            <NavHashLink className="nav hover:text-gray-100" smooth to="./#contact">Contact
+            <NavHashLink className="nav hover:text-gray-100" smooth to="/#contact">Contact
             </NavHashLink>
          </li>
       </ul>
@@ -64,7 +64,7 @@ export const Nav = () =>{
          </a> 
          </li>
          <li>
-            <a href="./resume/CV-Wesley.pdf" target="_blank" className="text-center text-xl nav hover:text-white">
+            <a href="#/resume/CV-Wesley.pdf" target="_blank" className="text-center text-xl nav hover:text-white">
                CV
             </a>
          </li>
